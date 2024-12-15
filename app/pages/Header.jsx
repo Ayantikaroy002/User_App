@@ -25,7 +25,7 @@ export default function Header({ setSearchQuery }) {
          <View style={{backgroundColor:'#AFB6BD', marginVertical:25, marginHorizontal:25, alignItems:'center', borderRadius:50, display:'flex', flexDirection:'row',justifyContent:'space-between' }}> 
            <TextInput 
              style={{fontSize:13, paddingLeft:18, width: '85%'}} 
-             placeholder='Search Courses'
+             placeholder='Search for users'
              onChangeText={setSearchQuery} 
            />
             <Ionicons style={{paddingRight:4}} name="search-circle" size={45} color="#053B77"/> 
